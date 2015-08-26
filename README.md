@@ -1,7 +1,7 @@
 How to Build unixODBC RPM Packages for RHEL 6.x
 =================================================
 
-Note that packages created with this method may not contain the drivers, so you will need to install them (such as mysql-connector-odbc) separately. 
+Note that packages created with this method may not contain the drivers, so you will need to install them (such as mysql-connector-odbc) separately. Note that the separate packages may use a different names for the drivers (check /etc/odbcinst.ini). 
 
 Prerequisites
 -------------
